@@ -70,6 +70,11 @@ gem 'devise'
 
 gem "factory_bot_rails"
 
+gem 'carrierwave', '~> 2.0'
+gem "figaro"
+
+gem "fog-aws"
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
