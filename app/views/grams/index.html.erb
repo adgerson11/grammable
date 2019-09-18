@@ -28,7 +28,7 @@
                     <%= comment.message %>
                 </div>
             <% end %>
-            
+
             <h4>Add a comment</h4>
             <%= simple_form_for Comment.new, url: gram_comments_path(gram) do |f| %>
                 <%= f.input :message %>
@@ -38,3 +38,5 @@
     </div>
 <% end %>
 </div>
+<br />
+<br />
